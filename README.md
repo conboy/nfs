@@ -1,13 +1,21 @@
-# 1. NFS
+# NFS (NextJS, FastAPI, Supbase)
 
-## 1.1. Getting Started
+Boilerplate code for a NextJS, FastAPI, Supabase application
 
-First, run the development server:
+## Getting Started
+
+You can clone & create this repo with the following command
+
+```bash
+npx create-next-app nextjs-fastapi --example "https://github.com/conboy/nfs"
+```
+
+Rename `.env.local.example` to `.env.local` and populate with [your Supabase project's URL and Anon Key](https://supabase.com/dashboard/project/_/settings/api).
+
+Run the development server:
 
 ```bash
 npm run dev
 ```
-
-Then rename `.env.local.example` to `.env.local` and populate with [your project's URL and Anon Key](https://supabase.com/dashboard/project/_/settings/api).
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
