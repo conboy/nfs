@@ -7,7 +7,7 @@ Boilerplate code for a NextJS, FastAPI, Supabase application
 You can clone & create this repo with the following command
 
 ```bash
-npx create-next-app nextjs-fastapi --example "https://github.com/conboy/nfs"
+npx create-next-app --example "https://github.com/conboy/nfs"
 ```
 
 Rename `.env.local.example` to `.env.local` and populate with [your Supabase project's URL and Anon Key](https://supabase.com/dashboard/project/_/settings/api).
